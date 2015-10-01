@@ -14,6 +14,9 @@ Bundle 'altercation/vim-colors-solarized'
 
 filetype plugin indent on     " required!
 
+" show line numbers
+set number
+
 " use spaces instead of tabs
 set expandtab
 
