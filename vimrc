@@ -11,6 +11,7 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 Bundle 'tpope/vim-sensible'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'Lokaltog/vim-powerline'
 
 filetype plugin indent on     " required!
 
