@@ -13,6 +13,9 @@ Bundle 'tpope/vim-sensible'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-fugitive'
+Bundle 'elzr/vim-json'
+Bundle 'saltstack/salt-vim'
 
 filetype plugin indent on     " required!
 
