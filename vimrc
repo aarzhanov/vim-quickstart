@@ -27,7 +27,7 @@ set expandtab
 
 " tab width
 set tabstop=4
-set shiftwidth=4
+set shiftwidth=2
 
 " use more colorslet g:Powerline_symbols = 'fancy'i
 set t_Co=256
@@ -51,5 +51,6 @@ set backupdir=~/.vim/backup
 set directory=~/.vim/swap
 
 autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+"autostart for NERDtree. Uncomment if need.
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map <C-n> :NERDTreeToggle<CR>
