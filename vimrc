@@ -11,7 +11,7 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 Bundle 'tpope/vim-sensible'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'bling/vim-airline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
 Bundle 'elzr/vim-json'
@@ -29,8 +29,11 @@ set expandtab
 set tabstop=4
 set shiftwidth=2
 
-" use more colorslet g:Powerline_symbols = 'fancy'i
+" use more colorslet g:Powerline_symbols = 'fancy'
 set t_Co=256
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme = 'powerlineish'
 
 function! HasColorscheme(name)
     let pat = 'colors/'.a:name.'.vim'
