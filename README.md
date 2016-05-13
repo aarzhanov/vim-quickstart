@@ -21,7 +21,7 @@ git submodule update --init
 
 3. Make a symlink for `~/.vimrc` file
 ```bash
-ln -s ~/.vim/vimrc ~/.vimrc
+ln -fs ~/.vim/vimrc ~/.vimrc
 ```
 
 4. Run vim and install bundles with `:BundleInstall`
