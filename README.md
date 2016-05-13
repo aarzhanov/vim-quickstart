@@ -10,7 +10,7 @@ Installation
 
 1. Clone the repository to `~/.vim`
 ```bash
-git clone git://github.com/unclegaara/vim-quickstart.git ~/.vim
+git clone git://github.com/aarzhanov/vim-quickstart.git ~/.vim
 ```
 
 2. Clone git submodules
